@@ -10,6 +10,7 @@ RUN apt-get update \
       gfortran openexr libatlas-base-dev python3-dev python3-numpy \
       libtbb2 libtbb-dev libdc1394-22-dev python3-dev libgirepository1.0-dev \
       libcairo2-dev python3-gi libcairo2-dev gir1.2-gstreamer-1.0 libtool python-gi-dev \
+      libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev \ # this is to update with webrtc libs not available with standard
       python3 python3-pip python3-setuptools python3-wheel ninja-build vim rsync \
   && apt-get clean
 
